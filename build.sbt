@@ -28,6 +28,8 @@ libraryDependencies += "org.webjars" % "bootstrap" % "3.3.1"
 
 libraryDependencies += "tv.cntt" %% "xitrum-scalate" % "2.3"
 
+libraryDependencies += "ru.circumflex" % "circumflex-orm" % "2.0" % "compile->default"
+
 // Precompile Scalate templates
 seq(scalateSettings:_*)
 
