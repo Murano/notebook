@@ -1,0 +1,7 @@
+<% import quickstart.action._ %>
+ Layout
+
+
+<%= renderedView  %>
+<%= jsDefaults %>
+<%= jsForView %>
